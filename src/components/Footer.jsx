@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <FlowbiteFooter container className="mt-10">
+        <FlowbiteFooter container className="mt-10 sm:p-6 p-3">
             <div className="w-full text-center ">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <Link to="/" className="flex items-center">

@@ -1,11 +1,11 @@
 // Import necessary dependencies and components
-import { 
-    Button, 
-    MegaMenu, 
-    MegaMenuDropdown, 
-    NavbarBrand,
-    NavbarCollapse,
-    NavbarToggle
+import {
+  Button,
+  MegaMenu,
+  MegaMenuDropdown,
+  NavbarBrand,
+  NavbarCollapse,
+  NavbarToggle
 } from 'flowbite-react';
 
 import { HiArrowRight } from 'react-icons/hi';
@@ -13,12 +13,12 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <MegaMenu className="px-0 py-3 mb-10 border-b-2 border-gray-200 dark:border-gray-700 sm:px-0 sm:py-3">
-      <NavbarBrand className="text-left">
-    <Link to="/" className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-        StellarCraft
-    </Link>
-</NavbarBrand>
+    <MegaMenu className="px-0 py-3 s mb-10 border-b-2 border-gray-200 dark:border-gray-700 sm:px-0 sm:py-3">
+      <NavbarBrand className="text-left px-3 py-2 font-medium transition-[color,background-color,border-color,text-decoration-color,fill,stroke,box-shadow] focus:z-10 focus:outline-none bg-gradient-to-r from-teal-200 to-lime-200 text-gray-900 focus:ring-4 focus:ring-lime-200 enabled:hover:bg-gradient-to-l enabled:hover:from-teal-200 enabled:hover:to-lime-200 enabled:hover:text-gray-900 dark:focus:ring-teal-700 rounded-lg">
+        <Link to="/" className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+          StellarCraft
+        </Link>
+      </NavbarBrand>
       <div className="order-2 hidden items-center md:flex">
         <Link
           to="/login"
@@ -27,7 +27,7 @@ const Header = () => {
           Login
         </Link>
         <Link to="/signup">
-          <Button>Sign up</Button>
+          <Button gradientDuoTone="tealToLime">Sign up</Button>
         </Link>
       </div>
       <NavbarToggle />

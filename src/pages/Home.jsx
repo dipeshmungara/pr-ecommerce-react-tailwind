@@ -21,7 +21,7 @@ const Home = () => {
             <div className="text-center mt-16">
                 <h2 className="text-4xl font-bold">Our Products</h2>
             </div>
-            <div className=" grid grid-cols-4 gap-4 mt-8 mb-16">
+            <div className=" grid sm:grid-cols-4 grid-cols-1 gap-4 mt-8 mb-16">
 
                 <div className="">
                     <Card

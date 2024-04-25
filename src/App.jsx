@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-3 sm:px-0">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
