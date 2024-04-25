@@ -7,8 +7,8 @@ const Home = () => {
         <>
             <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
                 <Carousel>
-                    <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
-                        Welcome to the StellarCraft
+                    <div className="flex h-full items-center justify-center bg-[url('./assets/img/slider1.png')] bg-cover bg-center dark:bg-gray-700 dark:text-white">
+                        {/* Welcome to the StellarCraft */}
                     </div>
                     <div className="flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white">
                         Our Collection

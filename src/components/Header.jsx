@@ -22,23 +22,23 @@ const Header = () => {
       <div className="order-2 hidden items-center md:flex">
         <Link
           to="/login"
-          className="mr-1 rounded-lg px-4 py-2 text-sm font-medium text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-gray-300 md:mr-2 md:px-5 md:py-2.5 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          className="mr-1 rounded-lg px-4 py-2 text-sm font-medium  text-gray-800 hover:bg-gray-50 focus:outline-none focus:ring-4 focus:ring-gray-300 md:mr-2 md:px-5 md:py-2.5 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
         >
           Login
         </Link>
         <Link to="/signup">
-          <Button gradientDuoTone="tealToLime">Sign up</Button>
+          <Button gradientDuoTone="tealToLime" className="text-base">Sign up</Button>
         </Link>
       </div>
       <NavbarToggle />
       <NavbarCollapse>
         {/* Replace NavbarLink with Link components */}
-        <Link to="/" className="nav-link">Home</Link>
-        <Link to="/about" className="nav-link">About</Link>
-        <Link to="/contact" className="nav-link">Contact</Link>
+        <Link to="/" className="nav-link text-base ">Home</Link>
+        <Link to="/about" className="nav-link text-base">About</Link>
+        <Link to="/contact" className="nav-link text-base">Contact</Link>
         <MegaMenuDropdown toggle={<>Company</>}>
           {/* Content of the MegaMenu Dropdown */}
-          <div className="mx-auto grid max-w-screen-xl px-4 py-5 text-sm text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
+          <div className="mx-auto grid max-w-screen-xl px-4 py-5 text-base  text-gray-500 dark:text-gray-400 md:grid-cols-3 md:px-6">
             <ul className="mb-4 hidden space-y-4 md:mb-0 md:block" aria-labelledby="mega-menu-full-image-button">
               {/* List of links */}
               <li>
@@ -103,7 +103,7 @@ const Header = () => {
           </div>
         </MegaMenuDropdown>
         {/* Additional links */}
-        <Link to="/products" className="nav-link">Products</Link>
+        <Link to="/products" className="nav-link text-base">Products</Link>
       </NavbarCollapse>
     </MegaMenu>
   );
