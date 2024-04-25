@@ -46,12 +46,46 @@ const Header = () => {
                   Online Stores
                 </Link>
               </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores
+                </Link>
+              </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores
+                </Link>
+              </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores
+                </Link>
+              </li>
               {/* Additional links */}
               {/* Add other items here */}
             </ul>
             {/* Additional list items */}
             <ul className="mb-4 space-y-4 md:mb-0">
-              {/* Add list items here */}
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores
+                </Link>
+              </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores 1
+                </Link>
+              </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores 2
+                </Link>
+              </li>
+              <li>
+                <Link to="/online-stores" className="hover:text-primary-600 dark:hover:text-primary-500">
+                  Online Stores 3
+                </Link>
+              </li>
             </ul>
             {/* Call to action */}
             <Link to="/new-flowbite-dashboard" className="rounded-lg bg-gray-800 p-8 text-left">

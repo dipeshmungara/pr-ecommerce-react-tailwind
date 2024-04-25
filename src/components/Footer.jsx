@@ -1,4 +1,4 @@
-import { Footer as FlowbiteFooter, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from "flowbite-react";
+import { Footer as FlowbiteFooter, FooterCopyright, FooterDivider } from "flowbite-react";
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -7,8 +7,8 @@ const Footer = () => {
             <div className="w-full text-center ">
                 <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
                     <Link to="/" className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" alt="StellarCraft Logo" className="mr-3 h-6 sm:h-9" />
-                        <span className="text-xl font-semibold dark:text-white">StellarCraft</span>
+                        {/* <img src="https://flowbite.com/docs/images/logo.svg" alt="StellarCraft Logo" className="mr-3 h-6 sm:h-9" /> */}
+                        <h1 className="text-xl font-semibold dark:text-white">StellarCraft</h1>
                     </Link>
                     <div className="flex space-x-4">
                         <Link to="/about" className="text-gray-500 hover:text-gray-800 dark:text-gray-300 dark:hover:text-gray-100">
